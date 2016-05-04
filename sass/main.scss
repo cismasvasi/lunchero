@@ -1,0 +1,22 @@
+// compileCompressed: ..\css\$1.css
+/*Mixins*/
+@import  'mixins/mixins';
+/*Varialbles*/
+@import  'mixins/variables';
+
+/*Base Styles*/
+@import  'partials/base';
+/*Nav Styles*/
+@import  'partials/nav';
+/*Header Styles*/
+@import  'partials/header';
+/*Jumbotron Styles*/
+@import  'partials/jumbotron';
+/*services Styles*/
+@import  'partials/services';
+/*features Styles*/
+@import  'partials/features';
+/*subscribe Styles*/
+@import  'partials/subscribe';
+/*footer Styles*/
+@import  'partials/footer';

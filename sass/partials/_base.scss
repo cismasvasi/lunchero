@@ -1,0 +1,36 @@
+body{
+  padding: 0;
+  font-size: 17px;
+}
+.container{
+	margin: auto;
+	width: 970px;
+	max-width: 100%;
+}
+.row{
+	margin: auto;
+	width: 970px;
+	max-width: 100%;
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 0;
+    white-space: nowrap;
+    padding: 10px 23px;
+    font-size: 18px;
+    line-height: 1.42857;
+    border-radius: 4px;
+    -webkit-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    transition: 0.5s ease;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

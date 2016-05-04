@@ -1,0 +1,93 @@
+#section-features{
+	background: #f3f4f5;
+    text-align: left;
+    padding: 100px 0;
+    .media-screen-800{
+        @include desktop{
+            margin: 50px 0;
+        }
+    }
+}
+.features-section{
+	.img-iPhone{
+		position: relative;
+	    display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    width: 70%;
+	    height: auto;
+        @include tablet
+        {
+            width: 50%;
+        }
+	}
+    .btn-danger{
+    color: white;
+    background-color: #cf3029;
+    border-color: #b12923;
+}
+    .btn-danger-border {
+    background: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #dc554f;
+    color: #dc554f;
+    padding-top: 8px ;
+    padding-bottom: 8px ;
+    &:hover{
+        background: #dc554f;
+        color: white;
+    };
+}
+}
+.features-content {
+    padding-top: 100px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    @include desktop{
+        padding-top: 15px;
+    }
+    @include tablet{
+        padding: 0 0 100px 0;
+    }
+    @include phone{
+        padding: 0 0 100px 0;
+    }
+    h3{
+    	margin-top: 24px;
+    	margin-bottom: 12px;
+    	font-size: 29px;
+    	color: $main_red;
+    	font-size: 3em;
+        @include desktop{
+            font-size: 2.5em;
+        }
+        @include tablet{
+            text-align: center;
+        }
+        @include phone{
+            text-align: center;
+            font-size: 2.5em;
+        }
+    }
+    .description{
+        @include tablet{
+            text-align: center;
+        }
+        @include phone{
+            text-align: center;
+        }
+    }
+    .feature-btn{
+        @include tablet{
+            text-align: center;
+        }
+        @include phone{
+            text-align: center;
+        }
+        
+    }
+
+}

@@ -1,0 +1,20 @@
+{
+  "name": "lunchero",
+  "version": "1.0.0",
+  "description": "Lunchero app website",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.1",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cismasvasi/lunchero.git"
+  },
+  "author": "Vasi Cismas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cismasvasi/lunchero/issues"
+  },
+  "homepage": "https://github.com/cismasvasi/lunchero#readme"
+}
